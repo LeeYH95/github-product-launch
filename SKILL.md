@@ -3,7 +3,7 @@ name: github-product-launch
 description: 为已有软件项目准备并发布完整 GitHub 产品材料，包括基于真实功能的 README、首屏 Banner、功能宣传图、介绍视频、Release 文案及发布校验。当用户要求“把项目上传 GitHub 并做好配套介绍”“做一套开源发布素材”等成套任务；不用于单独修 bug、普通 Git push、纯 Logo 设计或与产品无关的视频。
 license: MIT
 metadata:
-  compatibility: 核心检查脚本要求 Python 3.10+；图像、视频及发布需要宿主提供相应能力。已在 macOS 验证脚本，其他系统未实测。
+  compatibility: 核心检查脚本要求 Python 3.10+，回归测试已在 Linux、macOS 和 Windows 的 CI 中通过；图像、视频及发布需要宿主提供相应能力，完整任务仍需在目标环境验收。
 ---
 
 # GitHub Product Launch

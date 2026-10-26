@@ -102,7 +102,7 @@ Windows 可将 `python3` 换成 `py -3`。检查器默认只读发布目录，�
 | 图片与视频制作 | 宿主提供相应制作和渲染能力，可能产生服务费用 |
 | GitHub 发布 | 可用网络、安全登录，以及用户明确授权的目标与范围 |
 
-拆分前的脚本在 macOS 验证过；仓库 CI 执行的系统和 Python 版本见 [测试工作流](.github/workflows/tests.yml) 及其运行结果。脚本测试不等于图像、视频、登录和发布流程在所有宿主都完成了验收。
+检查器回归测试已在 GitHub Actions 的 Linux、macOS 和 Windows 上通过；Python 版本与运行配置见 [测试工作流](.github/workflows/tests.yml) 和 [首次运行结果](https://github.com/LeeYH95/github-product-launch/actions/runs/40286019608)。脚本测试不等于图像、视频、登录和发布流程在所有宿主都完成了验收。
 
 本地检查不会发送文件。执行已授权的发布时，源码和材料发送到指定 GitHub 仓库；调用图像、视频等外部服务时，相关素材是否外发取决于选用的工具。真实用户笔记、截图、凭据和临时数据不应混入公开材料。
 
